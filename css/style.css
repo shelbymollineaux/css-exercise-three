@@ -49,10 +49,10 @@ div.location {
 }
 
 div.location .arrow {
-  width: 30px;
+  width: 5%;
   float: left;
   margin-top: 15px;
-  padding-left: 15px;
+  padding-left: 5%;
 }
 
 div.location .arrow i {
@@ -60,6 +60,11 @@ div.location .arrow i {
 }
 
 div.location .content {
-  width: 370px;
+  width: 90%;
   float: left;
+}
+
+div.location:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
 }
